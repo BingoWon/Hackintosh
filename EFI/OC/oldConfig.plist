@@ -298,7 +298,7 @@
                     <key>Comment</key>
                     <string>V1.1.0</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/CpuTopologyRebuild</string>
                     <key>MaxKernel</key>
@@ -334,7 +334,7 @@
                     <key>Comment</key>
                     <string>V1.0</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -352,7 +352,7 @@
                     <key>Comment</key>
                     <string>V1.0</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -370,7 +370,7 @@
                     <key>Comment</key>
                     <string>V1.1.1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/USBToolBox</string>
                     <key>MaxKernel</key>
@@ -478,7 +478,7 @@
                     <key>Comment</key>
                     <string>V2.3.0</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
@@ -532,7 +532,7 @@
                     <key>Comment</key>
                     <string>V1.0</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IOSkywalkFamily</string>
                     <key>MaxKernel</key>
@@ -550,7 +550,7 @@
                     <key>Comment</key>
                     <string>V1200.12.2b1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IO80211FamilyLegacy</string>
                     <key>MaxKernel</key>
@@ -568,7 +568,7 @@
                     <key>Comment</key>
                     <string>V1400.1.1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirPortBrcmNIC</string>
                     <key>MaxKernel</key>
@@ -790,7 +790,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -843,7 +843,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>-ctrsmt igfxonln=1 agdpmod=pikera -amfipassbeta amfi=0x80 alcid=66 e1000=0</string>
+                    <string>-v -ctrsmt igfxonln=1 agdpmod=pikera -amfipassbeta amfi=0x80 alcid=66 e1000=0</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                 </dict>
